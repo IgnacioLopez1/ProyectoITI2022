@@ -1,0 +1,115 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+margin: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+.icono1{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar navbar-expand-sm{
+    height: 50px;
+}
+
+.nav-link:hover{
+    font-size: 20px;
+    color: rgb(223, 14, 14);
+  }
+
+  #particles-js{
+    height: 60vh;
+    width: 100%;
+    position:absolute;
+    background-color: black;
+    
+  }
+
+.btn btn-primary{
+    align-items: center;
+}
+
+.card{
+    margin: 110px;
+}
+
+a{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card:hover{
+    box-shadow: -3px 3px 28px 4px rgba(63, 56, 56, 0.75);
+    cursor: pointer;
+    border: solid rgb(2, 11, 138);
+}
+
+iframe{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    box-shadow: 1px -20px 50px 0.5px rgba(10, 3, 75, 0.75);
+    transition: 2s;   
+}
+
+iframe:hover{
+    width: 800px;
+    transition: 3s; 
+}
+
+.mapa  {
+    background-image: url(src/neuro.jpg);
+    background-size: contain;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+  
+
+
+.contacto{
+    background-color: rgb(19, 18, 18);
+    color: rgb(20, 17, 206);
+
+}
+
+@media screen and (max-width: 640px) {
+    #particles-js{
+        height: 300vh;
+      
+        
+      }
+  }
+  
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+    #particles-js{
+        height: 70vh;
+      
+        
+      }
+  }
+  
+  @media screen and (min-width: 1280px) and (max-width: 1368px) {
+    #particles-js{
+        height: 160vh;
+      
+        
+      }
+  }
+
+ 
