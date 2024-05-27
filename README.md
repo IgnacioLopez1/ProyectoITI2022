@@ -1,2 +1,2 @@
 # IgnacioLopez1.github.io
-proyect ITI 2022 DISEÑO  WEB
+proyecto Instituto tecnologico de informatica 2022 DISEÑO  WEB
